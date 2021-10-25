@@ -17,10 +17,19 @@ public class HlavniProgram {
 //        zofka.move(100);
 //        zofka.turnLeft(109.471);
 
-        for (int i = 0; i <4; i++){
+        //Ctverec
+//        for (int i = 0; i <4; i++){
+//            zofka.move(100);
+//            zofka.turnRight(90);
+//        }
+
+        for (int i = 0; i < 2; i++) {
+            zofka.move(150);
+            zofka.turnRight(90);
             zofka.move(100);
             zofka.turnRight(90);
         }
+
 
         }
     }
