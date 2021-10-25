@@ -23,13 +23,18 @@ public class HlavniProgram {
 //            zofka.turnRight(90);
 //        }
 
-        for (int i = 0; i < 2; i++) {
-            zofka.move(150);
-            zofka.turnRight(90);
-            zofka.move(100);
-            zofka.turnRight(90);
-        }
+        //Obdelnik
+//        for (int i = 0; i < 2; i++) {
+//            zofka.move(150);
+//            zofka.turnRight(90);
+//            zofka.move(100);
+//            zofka.turnRight(90);
+//        }
 
+        for (int i = 0; i<360; i++) {
+            zofka.move(100 * 0.0174);
+            zofka.turnRight(1);
+        }
 
         }
     }
