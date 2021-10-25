@@ -9,11 +9,18 @@ public class HlavniProgram {
 
         zofka = new Turtle();
 
-        zofka.move(150);
-        zofka.turnLeft(141.058);
-        zofka.move(150);
-        zofka.turnLeft(109.471);
-        zofka.move(100);
-        zofka.turnLeft(109.471);
+         //Rovnoramenny trojuhelnik
+//        zofka.move(150);
+//        zofka.turnLeft(141.058);
+//        zofka.move(150);
+//        zofka.turnLeft(109.471);
+//        zofka.move(100);
+//        zofka.turnLeft(109.471);
+
+        for (int i = 0; i <4; i++){
+            zofka.move(100);
+            zofka.turnRight(90);
+        }
+
         }
     }
