@@ -9,39 +9,51 @@ public class HlavniProgram {
 
         zofka = new Turtle();
 
-        zofka.setLocation(300, 350);
-        nakresliKolecko(80);
-        zofka.penUp();
-        for (int i = 0; i < 90; i++) {
-            zofka.move(80 * 0.0174);
-            zofka.turnRight(1);
-        }
-        zofka.turnLeft(180);
-        zofka.penDown();
-        nakresliKolecko(60);
-        zofka.penUp();
-        for (int i = 0; i < 90; i++) {
-            zofka.move(60 * 0.0174);
-            zofka.turnRight(1);
-        }
-        zofka.turnLeft(180);
-        zofka.penDown();
-        nakresliKolecko(20);
-        zofka.penUp();
-        for (int i = 0; i < 180; i++) {
-            zofka.move(60 * 0.0174);
-            zofka.turnLeft(1);
-        }
-        zofka.penDown();
-        nakresliKolecko(20);
-        zofka.penUp();
-        for (int i = 0; i < 90; i++) {
-            zofka.move(60 * 0.0174);
-            zofka.turnLeft(1);
-        }
-        zofka.penDown();
-        nakresliKolecko(40);
+//        zofka.setLocation(300, 350);
+//        nakresliKolecko(80);
+//        zofka.penUp();
+//        for (int i = 0; i < 90; i++) {
+//            zofka.move(80 * 0.0174);
+//            zofka.turnRight(1);
+//        }
+//        zofka.turnLeft(180);
+//        zofka.penDown();
+//        nakresliKolecko(60);
+//        zofka.penUp();
+//        for (int i = 0; i < 90; i++) {
+//            zofka.move(60 * 0.0174);
+//            zofka.turnRight(1);
+//        }
+//        zofka.turnLeft(180);
+//        zofka.penDown();
+//        nakresliKolecko(20);
+//        zofka.penUp();
+//        for (int i = 0; i < 180; i++) {
+//            zofka.move(60 * 0.0174);
+//            zofka.turnLeft(1);
+//        }
+//        zofka.penDown();
+//        nakresliKolecko(20);
+//        zofka.penUp();
+//        for (int i = 0; i < 90; i++) {
+//            zofka.move(60 * 0.0174);
+//            zofka.turnLeft(1);
+//        }
+//        zofka.penDown();
+//        nakresliKolecko(40);
 
+        zofka.setLocation(100, 230);
+        nakresliKolecko(85);
+
+        zofka.penUp();
+        zofka.turnRight(180);
+        for (int i = 0; i < 15; i++) {
+            zofka.move(85 * 0.0174);
+            zofka.turnLeft(1);
+        }
+        zofka.turnLeft(7.5);
+        zofka.penDown();
+        nakresliRovnoramennyTrojuhelnik(214.3, 164, 112.5, 135);
 
     }
         public void nakresliCtverec ( double velikostStrany){
