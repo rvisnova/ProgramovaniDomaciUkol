@@ -41,19 +41,23 @@ public class HlavniProgram {
 //        }
 //        zofka.penDown();
 //        nakresliKolecko(40);
+//        zofka.turnRight(90);
 
-        zofka.setLocation(100, 230);
-        nakresliKolecko(85);
+        zofka.setLocation(50, 230);
+        nakresliKolecko(68);
+        //85
 
         zofka.penUp();
         zofka.turnRight(180);
         for (int i = 0; i < 15; i++) {
-            zofka.move(85 * 0.0174);
+            zofka.move(68 * 0.0174);
             zofka.turnLeft(1);
         }
         zofka.turnLeft(7.5);
         zofka.penDown();
-        nakresliRovnoramennyTrojuhelnik(214.3, 164, 112.5, 135);
+        nakresliRovnoramennyTrojuhelnik(171.44, 131.2, 112.5, 135);
+        //214.3, 164
+        zofka.turnLeft(157.5);
 
     }
         public void nakresliCtverec ( double velikostStrany){
